@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Categories=Application
+Terminal=false
+Exec=/usr/bin/blogger-wrapper
+Name=Blogger
+Comment=Blogger
+Icon=/home/cyberpunk/Pictures/blogger.png
