@@ -1,0 +1,24 @@
+{
+  "name": "blogger-wrapper",
+  "version": "1.0.0",
+  "description": "Blogger Electron wrapper",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-packager . --platform linux --arch x64 --out dist/ --overwrite",
+    "deb64": "electron-installer-debian --src dist/blogger-wrapper-linux-x64/ --dest dist/installers/ --arch amd64",
+    "dist": "electron-builder --linux snap"
+  },
+  "keywords": [
+    "electron",
+    "wrapper",
+    "evernote"
+  ],
+  "author": "Artefaktas.eu",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^21.3.1",
+    "electron-packager": "^17.1.1"
+  }
+}
